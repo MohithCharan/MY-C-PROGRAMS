@@ -1,61 +1,22 @@
-#include<stdio.h>
+  #include<stdio.h>
 int main()
-{
-    int a,b,c,d;
-    scanf("%d%d%d%d",&a,&b,&c,&d);
-    if(c==d)
-    {
-    	printf("Yes");
+
+
+{ int x,y,z,a;
+ 
+	scanf("%d%d%d%d",&x,&y,&z,&a);
+	if((x==z)||(y==a))
+	{ 
+		
+		
+			printf("Yes");
+		
 	}
-	
-	else if (a+1==c)
-    {
-        if(b==d)
-        {
-            printf("Yes");
-        }
-        else
-        { 
-           printf("NO");
-		}
-    }
-    else if (a-1==c)
-    {
-        if(b==d)
-        {
-            printf("Yes");
-        }
-        else
-        { 
-           printf("NO");
-		}
-    }
-    else if (b+1==d)
-    {
-        if(a==c)
-        {
-            printf("Yes");
-        }
-        else
-        { 
-           printf("NO");
-		}
-    
-	}
-	else if (b-1==d)
-    {
-        if(a==c)
-        {
-            printf("Yes");
-        }
-        else
-        { 
-           printf("NO");
-		}
-    
-	}
-   else 
-   {
-   	 printf("No");
-    }
+
+	else 
+	    {  
+	        printf("No");
+	        
+	    }
+	     
 }
