@@ -14,10 +14,10 @@ int main()
   printf("enter the veld:");
   scanf("%d",&n5);
   totalmarks=n1+n2+n3+n4+n5;
-  printf("the total marks is %d",totalmarks);
+  printf("\nthe total marks is %d",totalmarks);
   avg=totalmarks/5;
-  printf("the average marks is %.1f ",avg);
+  printf("\nthe average marks is %.1f ",avg);
   per=avg;
-  printf("the percentage is   %.f",per);
+  printf("\nthe percentage is   %.f",per);
   return(0);  
   }
