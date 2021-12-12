@@ -1,4 +1,4 @@
-/*8. N numbers are given in the input. Read them and print their product.*/
+/*1. Find factorial of a given number.*/
 
 #include<stdio.h>
 int main()
@@ -10,5 +10,5 @@ int main()
  product=product*i;
  i=i+1;
  }
- printf("the product of all numbers is: %d",product);
+ printf("the factorial of numbers is: %d",product);
 }
