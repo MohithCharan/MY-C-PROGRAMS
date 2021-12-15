@@ -2,13 +2,15 @@
 
 #include<stdio.h>
 int main()
-{ int i,n,sum;
+{ int i,n,num,sum;
  scanf("%d",&n);
- i=2;
- while(i<=n)
- { 
- sum=sum+i;
- i=i+1;
+ i=1;
+sum=0;
+for(i=1;i<=n;i++)
+{ 
+    scanf("%d",&num);
+sum=sum+num;
+ 
  }
  printf("the sum of all numbers is: %d",sum);
 }
